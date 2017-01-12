@@ -5,7 +5,7 @@ module.exports = {
     client: 'pg',
     connection: 'postgres://localhost/bookshelf_dev'
   },
-  test: {
+  production: {
     client: 'pg',
     connection: process.env.DATABASE_URL
   }
