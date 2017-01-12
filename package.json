@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "knex": "knex",
-    "heroku-postbuild": "knex migrate:latest"
+    "heroku-postbuild": "knex migrate:latest",
+    "nf": "nf start",
+    "nodemon": "nodemon server.js"
   },
   "engines": {
     "node": "7.2.1"
@@ -45,11 +47,5 @@
     "mocha": "^2.5.3",
     "nodemon": "^1.10.0",
     "supertest": "^1.2.0"
-  },
-  "scripts": {
-  "knex": "knex",
-  "heroku-postbuild": "knex migrate:latest",
-  "nf": "nf start",
-  "nodemon": "nodemon server.js"
-}
+  }
 }
