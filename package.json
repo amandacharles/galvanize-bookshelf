@@ -45,5 +45,11 @@
     "mocha": "^2.5.3",
     "nodemon": "^1.10.0",
     "supertest": "^1.2.0"
-  }
+  },
+  "scripts": {
+  "knex": "knex",
+  "heroku-postbuild": "knex migrate:latest",
+  "nf": "nf start",
+  "nodemon": "nodemon server.js"
+}
 }
