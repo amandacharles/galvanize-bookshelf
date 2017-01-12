@@ -8,7 +8,7 @@
     "heroku-postbuild": "knex migrate:latest"
   },
   "engines": {
-    "node": "7.4.0"
+    "node": "7.2.1"
   },
   "repository": {
     "type": "git",
